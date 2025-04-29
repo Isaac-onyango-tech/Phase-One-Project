@@ -1,42 +1,42 @@
-### Aircraft Safety Analysis for Business Expansion
+# Aircraft Safety Analysis for Business Expansion
 This project explores aviation accident data to identify the **safest aircraft models** and understand **factors influencing risk** such as engine count, purpose of flight, and aircraft damage. It was developed as part of a data science learning journey.
 
-#### Objective
+## Objective
 - Identify aircraft models with the **lowest fatality rates**.
 - Analyze **flight purposes**, **engine numbers**, and **damage levels** to assess risk.
 - Recommend low-risk aircraft for commercial investment.
 - Build a **dashboard** for interactive exploration (Tableau).
 
 
-#### Data Understanding and Analysis
+## Data Understanding and Analysis
 The dataset contains records of civil aviation accidents and incidents from 1962 to 2023. Key variables include aircraft manufacturer, model, number of engines, and injury severity. After cleaning the data by handling missing values and removing irrelevant columns, I performed exploratory data analysis (EDA) using Python and visualized trends through bar charts and correlation matrices. The source of the data is from the National Transportation Safety Board (NTSB). Here is the dataset used: [Data](https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses). For this particular analysis i worked with data between the years 2012,2023
 
-Key Findings
-#### 1. Safest Aircraft Models and Makes
+## Key Findings
+### 1. Safest Aircraft Models and Makes
 - Aircraft models like the Diamond Aircraft Industries DA 20-A1, Piper J3-C65, and Boeing 737 were identified among the safest, with the lowest fatality rates.
 
 - Top manufacturers with consistent safety performance included Diamond Aircraft, Piper, Boeing, and Cessna.
 
-#### 2. Purpose of Flight
+### 2. Purpose of Flight
 - Personal and instructional flights had lower risk profiles compared to aerial application (crop dusting) and charter flights, which had higher injury rates.
 
 - Recommendation: Focus on personal, instructional, or business aviation sectors where fatality rates are relatively lower.
 
-#### 3. Number of Engines
+### 3. Number of Engines
 - Aircraft with 6 or 8 engines had the highest safety scores (~1.0).
 
 - Aircraft with 2 engines had the lowest safety scores, indicating a higher risk.
 
 - Recommendation: Prioritize multi-engine aircraft, especially those with 6 or more engines, for safety redundancy.
 
-#### 4. Aircraft Damage Profile
+### 4. Aircraft Damage Profile
 - Cessna and Piper accounted for the largest number of accidents, but most damages were substantial rather than total destruction.
 
 - Boeing aircraft had relatively more minor damages compared to others.
 
 - Recommendation: Favor aircraft makes with a high proportion of minor and substantial damage outcomes rather than those with high destruction rates.
 
-##### Tools I'll Use:
+## Tools I'll Use:
 
 - Python (Pandas, Numpy, Seaborn, Matplotlib)
 - Jupyter Notebook
@@ -45,13 +45,15 @@ Key Findings
 - PowerPoint for non-technical presentation
 
 
-### Results/findings
+## Results/findings
 The analysis results are summarized as follows:
-#### Link to Tableau
+
+### Link to Tableau
+
 [Tableau Dashboard](https://public.tableau.com/app/profile/isaac.onyango/viz/AviationAnalysis_17459049577560/Dashboard1?publish=yes)
 
 
-#### Overall Recommendation
+### Overall Recommendation
 - Prioritize aircraft from safe manufacturers like Diamond Aircraft, Piper, and Boeing.
 
 - Prefer aircraft used for personal, business, and instructional purposes.
