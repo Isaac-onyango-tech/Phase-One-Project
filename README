@@ -1,11 +1,15 @@
 ### Aircraft Safety Analysis for Business Expansion
+This project explores aviation accident data to identify the **safest aircraft models** and understand **factors influencing risk** such as engine count, purpose of flight, and aircraft damage. It was developed as part of a data science learning journey.
+
 #### Objective
-The goal of this analysis was to identify the lowest-risk aircraft models and operational factors to guide the company's entry into the aviation sector.
-The focus was on minimizing fatalities, serious injuries, and operational risk based on historical aviation accident data.
+- Identify aircraft models with the **lowest fatality rates**.
+- Analyze **flight purposes**, **engine numbers**, and **damage levels** to assess risk.
+- Recommend low-risk aircraft for commercial investment.
+- Build a **dashboard** for interactive exploration (Tableau).
+
 
 #### Data Understanding and Analysis
-The dataset contains records of civil aviation accidents and incidents from 1962 to 2023. Key variables include aircraft manufacturer, model, number of engines, and injury severity. After cleaning the data by handling missing values and removing irrelevant columns, I performed exploratory data analysis (EDA) using Python and visualized trends through bar charts and correlation matrices. The source of the data is from the National Transportation Safety Board (NTSB). Here is the dataset used *Source: [Dataset]* (https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses)
-
+The dataset contains records of civil aviation accidents and incidents from 1962 to 2023. Key variables include aircraft manufacturer, model, number of engines, and injury severity. After cleaning the data by handling missing values and removing irrelevant columns, I performed exploratory data analysis (EDA) using Python and visualized trends through bar charts and correlation matrices. The source of the data is from the National Transportation Safety Board (NTSB). Here is the dataset used: [Data](https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses). For this particular analysis i worked with data between the years 2012,2023
 
 Key Findings
 #### 1. Safest Aircraft Models and Makes
@@ -32,6 +36,13 @@ Key Findings
 
 - Recommendation: Favor aircraft makes with a high proportion of minor and substantial damage outcomes rather than those with high destruction rates.
 
+##### Tools I'll Use:
+
+- Python (Pandas, Numpy, Seaborn, Matplotlib)
+- Jupyter Notebook
+- Tableau (dashboard)
+- Git & GitHub
+- PowerPoint for non-technical presentation
 
 
 ### Results/findings
