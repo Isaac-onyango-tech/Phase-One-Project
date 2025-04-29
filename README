@@ -1,0 +1,60 @@
+### Aircraft Safety Analysis for Business Expansion
+#### Objective
+The goal of this analysis was to identify the lowest-risk aircraft models and operational factors to guide the company's entry into the aviation sector.
+The focus was on minimizing fatalities, serious injuries, and operational risk based on historical aviation accident data.
+
+#### Data Understanding and Analysis
+The dataset contains records of civil aviation accidents and incidents from 1962 to 2023. Key variables include aircraft manufacturer, model, number of engines, and injury severity. After cleaning the data by handling missing values and removing irrelevant columns, I performed exploratory data analysis (EDA) using Python and visualized trends through bar charts and correlation matrices. The source of the data is from the National Transportation Safety Board (NTSB). Here is the dataset used *Source: [Dataset]* (https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses)
+
+
+Key Findings
+#### 1. Safest Aircraft Models and Makes
+- Aircraft models like the Diamond Aircraft Industries DA 20-A1, Piper J3-C65, and Boeing 737 were identified among the safest, with the lowest fatality rates.
+
+- Top manufacturers with consistent safety performance included Diamond Aircraft, Piper, Boeing, and Cessna.
+
+#### 2. Purpose of Flight
+- Personal and instructional flights had lower risk profiles compared to aerial application (crop dusting) and charter flights, which had higher injury rates.
+
+- Recommendation: Focus on personal, instructional, or business aviation sectors where fatality rates are relatively lower.
+
+#### 3. Number of Engines
+- Aircraft with 6 or 8 engines had the highest safety scores (~1.0).
+
+- Aircraft with 2 engines had the lowest safety scores, indicating a higher risk.
+
+- Recommendation: Prioritize multi-engine aircraft, especially those with 6 or more engines, for safety redundancy.
+
+#### 4. Aircraft Damage Profile
+- Cessna and Piper accounted for the largest number of accidents, but most damages were substantial rather than total destruction.
+
+- Boeing aircraft had relatively more minor damages compared to others.
+
+- Recommendation: Favor aircraft makes with a high proportion of minor and substantial damage outcomes rather than those with high destruction rates.
+
+
+
+### Results/findings
+The analysis results are summarized as follows:
+#### Link to Tableau
+[Tableau Dashboard](https://public.tableau.com/app/profile/isaac.onyango/viz/AviationAnalysis_17459049577560/Dashboard1?publish=yes)
+
+
+#### Overall Recommendation
+- Prioritize aircraft from safe manufacturers like Diamond Aircraft, Piper, and Boeing.
+
+- Prefer aircraft used for personal, business, and instructional purposes.
+
+- Choose multi-engine aircraft (6+ engines) to ensure redundancy and improve operational safety.
+
+- Monitor aircraft damage history when selecting aircraft, favoring those with mostly minor/substantial rather than destructive accident outcomes.
+
+### Limitations
+- Data was fictious and we lacked substantive data beefore 1981.
+- Time Factor. I could have done more
+
+### References
+1. Learning Python 5th Edition –O’Reilly
+2. Youtube tutorials - [Dataschool](https://www.youtube.com/@dataschool)
+3. Class work
+
